@@ -1,4 +1,4 @@
-def codons_extract(DNA, frame):
+def codons_extract(DNA, frame): # Windows Test
     codons =[]
     for i in range(int((len(DNA) - frame)/3)):
         codon = ""
